@@ -16,7 +16,7 @@ public class PersonaController {
     @Autowired
     private IPersonaService personaService;
 
-    @GetMapping(value ="/vistaForm")
+    @GetMapping(value ="/vista")
     public String mostrar(Model model){
 
         model.addAttribute("persona", new Persona());
