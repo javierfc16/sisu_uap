@@ -3,10 +3,12 @@ package com.example.sisu.Models.Service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.example.sisu.Models.Dao.IPersonaDao;
 import com.example.sisu.Models.Entity.Persona;
 
+@Service
 public class PersonaServiceImpl implements IPersonaService {
 
     @Autowired
