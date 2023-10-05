@@ -22,7 +22,7 @@ public class PersonaController {
         model.addAttribute("persona", new Persona());
         model.addAttribute("peronas", personaService.findAll());
 
-        return "";
+        return "index";
     }
     
 }
